@@ -41,6 +41,7 @@ class Num2Word_EU(Num2Word_Base):
         'NOK': (('krone', 'kroner'), ('øre', 'øre')),
         'PLN': (('zloty', 'zlotys', 'zlotu'), ('grosz', 'groszy')),
         'MXN': (('peso', 'pesos'), GENERIC_CENTS),
+        'GHS': (('ghana cedis', 'ghana cedis'), ('pesewa', 'pesewas')),
         'RON': (('leu', 'lei', 'de lei'), ('ban', 'bani', 'de bani')),
         'INR': (('rupee', 'rupees'), ('paisa', 'paise')),
         'HUF': (('forint', 'forint'), ('fillér', 'fillér'))
@@ -51,6 +52,7 @@ class Num2Word_EU(Num2Word_Base):
         'CAD': 'Canadian',
         'EEK': 'Estonian',
         'USD': 'US',
+        'GHS': 'Ghana',
         'RUB': 'Russian',
         'NOK': 'Norwegian',
         'MXN': 'Mexican',
